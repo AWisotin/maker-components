@@ -14,7 +14,36 @@ This repo includes schematics, libraries, 3D models, and examples I use in my pr
 - **docs/** → documentation, descriptions, images  
 - **hardware/** → schematics, PCB layouts, 3D models  
 - **software/** → Arduino libs, firmware, and examples  
-- **LICENSE** → license file (MIT/Apache recommended)  
+- **LICENSE** → license file (MIT/Apache recommended)
+
+### Repository structure examples
+
+diy-components/
+├── docs/              
+│   ├── sensors.md
+│   ├── modules.md
+│   └── power.md
+├── hardware/           
+│   ├── schematics/      
+│   │   ├── resistor_array.kicad_sch
+│   │   └── sensor_board.pdf
+│   ├── pcb/            
+│   │   ├── sensor_pcb.kicad_pcb
+│   │   └── power_module.kicad_pcb
+│   └── 3d-models/       
+│       ├── case_v1.stl
+│       └── holder.step
+├── software/           
+│   ├── arduino/         
+│   │   ├── sensor_lib/
+│   │   └── power_module/
+│   └── examples/
+│       ├── blink_sensor/
+│       └── power_test/
+├── LICENSE 
+└── README.md
+
+
 
 ---
 
@@ -23,3 +52,4 @@ This repo includes schematics, libraries, 3D models, and examples I use in my pr
 1. Clone the repository:
    ```bash
    git clone https://github.com/username/diy-components.git
+
