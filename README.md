@@ -17,7 +17,7 @@ This repo includes schematics, libraries, 3D models, and examples I use in my pr
 - **LICENSE** → license file (MIT/Apache recommended)
 
 ### Repository structure examples
-```CSS
+```text
 diy-components/
 ├── docs/              
 │   ├── sensors.md
