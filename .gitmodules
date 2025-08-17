@@ -1,0 +1,3 @@
+[submodule "software/arduino/RBDDimmer"]
+	path = software/arduino/RBDDimmer
+	url = https://github.com/RobotDynOfficial/RBDDimmer.git
